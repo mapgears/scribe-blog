@@ -4,7 +4,7 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://mapgears.github.io/scribe-blog/atom.xml" rel="self"/>
   <link href="http://mapgears.github.io/scribe-blog/"/>
-  <updated>2015-05-22T11:18:14-04:00</updated>
+  <updated>2015-05-22T11:33:43-04:00</updated>
   <id>http://mapgears.github.io/scribe-blog/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Test2]]></title>
+    <link href="http://mapgears.github.io/scribe-blog/blog/2015/05/22/test2/"/>
+    <updated>2015-05-22T11:33:35-04:00</updated>
+    <id>http://mapgears.github.io/scribe-blog/blog/2015/05/22/test2</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Test]]></title>
