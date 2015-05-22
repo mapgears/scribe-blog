@@ -4,7 +4,11 @@
   <title><![CDATA[My Octopress Blog]]></title>
   <link href="http://mapgears.github.io/scribe-blog/atom.xml" rel="self"/>
   <link href="http://mapgears.github.io/scribe-blog/"/>
+<<<<<<< HEAD
   <updated>2015-05-22T11:33:43-04:00</updated>
+=======
+  <updated>2015-05-22T11:18:14-04:00</updated>
+>>>>>>> 09bebd75b375f38fc22d28acc438a6a11ea9b5d6
   <id>http://mapgears.github.io/scribe-blog/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -14,6 +18,7 @@
 
   
   <entry>
+<<<<<<< HEAD
     <title type="html"><![CDATA[Test2]]></title>
     <link href="http://mapgears.github.io/scribe-blog/blog/2015/05/22/test2/"/>
     <updated>2015-05-22T11:33:35-04:00</updated>
@@ -23,6 +28,8 @@
   </entry>
   
   <entry>
+=======
+>>>>>>> 09bebd75b375f38fc22d28acc438a6a11ea9b5d6
     <title type="html"><![CDATA[Test]]></title>
     <link href="http://mapgears.github.io/scribe-blog/blog/2015/05/22/test/"/>
     <updated>2015-05-22T10:38:46-04:00</updated>
