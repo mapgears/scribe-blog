@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Start of the project"
+date: 2013-06-10 11:29
+comments: true
+categories: 
+---
+
+ScribeUI was accepted as a Google Summer of Code 2013 entry with OSGeo! 
+
+The beginning of the project so far has been all about preparation. What new functionnalities do we want ? What current functionnality needs to get better ? What is good about the current application, and what needs to be redone ? What are the bugs, and how important are they ?
+
+So before a first version can be released, a few things need to be done. First, GUI Mockups. The main weakness of the application right now is the GUI, and the mockups really help bringing new ideas before doing any coding. The mockups will be up shortly on this blog.
+
+Next, there need to be some rethinking of the code to have it work with modules. That way, implementing new features will be much easier.
+
+Also, two bugs need to be corrected before releasing the project. Both bugs cause loss of work made by the user, that is why they need to be fixed as soon as possible.
+
+And finally, actually implemeting the new GUI as directed by the mockups. 
+
+Once all of this is done, the app can be used and tested by anyone interested. Some functionnalities will be missing, but the core will be there.
