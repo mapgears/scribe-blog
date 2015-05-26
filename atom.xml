@@ -4,7 +4,7 @@
   <title><![CDATA[Scribe Development Blog]]></title>
   <link href="http://mapgears.github.io/scribe-blog/atom.xml" rel="self"/>
   <link href="http://mapgears.github.io/scribe-blog/"/>
-  <updated>2015-05-26T08:45:09-04:00</updated>
+  <updated>2015-05-26T14:59:22-04:00</updated>
   <id>http://mapgears.github.io/scribe-blog/</id>
   <author>
     <name><![CDATA[Mapgears]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Getting Started With ScribeUI]]></title>
+    <link href="http://mapgears.github.io/scribe-blog/blog/2015/05/26/getting-started-with-scribeui/"/>
+    <updated>2015-05-26T14:46:41-04:00</updated>
+    <id>http://mapgears.github.io/scribe-blog/blog/2015/05/26/getting-started-with-scribeui</id>
+    <content type="html"><![CDATA[<p>There is now a Getting Started guide to Scribe UI! It is located on the <a href="https://github.com/mapgears/scribeui/wiki/Getting-started-with-ScribeUI">project&rsquo;s wiki</a>. You can also try ScribeUI without installing it by going on the <a href="http://demo.scribeui.org">demo</a> page. It is reset every day to keep it from getting too messy.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[ScribeUI on GSoC 2015]]></title>
