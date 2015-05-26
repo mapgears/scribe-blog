@@ -9,8 +9,7 @@
   <meta name="author" content="Mapgears">
 
   
-  <meta name="description" content="
-">
+  <meta name="description" content="ScribeUI is back as a Google Summer of Code project with OSGeo. We decided to put the old developement blog back up, and use it to post news on what& &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -72,7 +71,7 @@
       
   <header>
     
-      <h1 class="entry-title"><a href="/scribe-blog/blog/2015/05/25/test/">Test</a></h1>
+      <h1 class="entry-title"><a href="/scribe-blog/blog/2015/05/26/scribeui-on-gsoc-2015/">ScribeUI on GSoC 2015</a></h1>
     
     
       <p class="meta">
@@ -81,14 +80,30 @@
 
 
 
-<time class='entry-date' datetime='2015-05-25T08:42:56-04:00'><span class='date'><span class='date-month'>May</span> <span class='date-day'>25</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>8:42 am</span></time>
+<time class='entry-date' datetime='2015-05-26T08:45:38-04:00'><span class='date'><span class='date-month'>May</span> <span class='date-day'>26</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>8:45 am</span></time>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content">
+  <div class="entry-content"><p>ScribeUI is back as a Google Summer of Code project with OSGeo.</p>
+
+<p>We decided to put the old developement blog back up, and use it to post news on what&rsquo;s going on with the project. I will post a getting started guide this week to help new users use ScribeUI. This summer&rsquo;s plan involves fixing bugs and adding a few features:</p>
+
+<h3>Improve the error detection of ScribeUI</h3>
+
+<p>Right now, the only way we have to know something is wrong with a Scribe map file is when it is converted to the Mapserver Mapfile format and Mapserver can&rsquo;t read it. ScribeUI displays Mapserver&rsquo;s error output in the logs, allowing the user to have an idea of the problem. However, the line numbers displayed in the logs do not fit with the Scribe files since it is a different format. The goal is to have an error output that displays the correct location of errors in the code.</p>
+
+<h3>Import and export workspaces</h3>
+
+<p>I want to add the possibility to export workspaces into a single zipped file, and allow other users to import it on their installation of ScribeUI. This would make sharing maps easier.</p>
+
+<h3>Classify the data</h3>
+
+<p>One of the commonly requested features to automatically add classes based on a set of data and scales. For example, most demographics can be displayed with a map colored with a scale based from brighter to darker colors. Adding a way to automatically create these classes would be very useful to ScribeUI users.</p>
+
+<p>My objective is to complete all these features by the end of the summer and release a new stable version of ScribeUI.</p>
 </div>
   
   
@@ -212,7 +227,7 @@ This is the most important part of the app. The toolbar on top of the text box c
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/scribe-blog/blog/2015/05/25/test/">Test</a>
+        <a href="/scribe-blog/blog/2015/05/26/scribeui-on-gsoc-2015/">ScribeUI on GSoC 2015</a>
       </li>
     
       <li class="post">

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://mapgears.github.io/scribe-blog/blog/2015/05/25/test/</loc>
-    <lastmod>2015-05-25T08:42:56-04:00</lastmod>
+    <loc>http://mapgears.github.io/scribe-blog/blog/2015/05/26/scribeui-on-gsoc-2015/</loc>
+    <lastmod>2015-05-26T08:45:38-04:00</lastmod>
   </url>
   <url>
     <loc>http://mapgears.github.io/scribe-blog/blog/2013/06/11/mockups/</loc>
@@ -17,5 +17,8 @@
   </url>
   <url>
     <loc>http://mapgears.github.io/scribe-blog/</loc>
+  </url>
+  <url>
+    <loc>http://mapgears.github.io/scribe-blog/blog/categories/gsoc/</loc>
   </url>
 </urlset>
