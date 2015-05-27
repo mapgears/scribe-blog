@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Gsoc | Scribe Development Blog]]></title>
-  <link href="http://mapgears.github.io/scribe-blog/blog/categories/gsoc/atom.xml" rel="self"/>
-  <link href="http://mapgears.github.io/scribe-blog/"/>
-  <updated>2015-05-27T08:44:10-04:00</updated>
-  <id>http://mapgears.github.io/scribe-blog/</id>
+  <link href="http://blog.scribeui.org/blog/categories/gsoc/atom.xml" rel="self"/>
+  <link href="http://blog.scribeui.org/"/>
+  <updated>2015-05-27T08:50:20-04:00</updated>
+  <id>http://blog.scribeui.org/</id>
   <author>
     <name><![CDATA[Mapgears]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[ScribeUI on GSoC 2015]]></title>
-    <link href="http://mapgears.github.io/scribe-blog/blog/2015/05/26/scribeui-on-gsoc-2015/"/>
+    <link href="http://blog.scribeui.org/blog/2015/05/26/scribeui-on-gsoc-2015/"/>
     <updated>2015-05-26T08:45:38-04:00</updated>
-    <id>http://mapgears.github.io/scribe-blog/blog/2015/05/26/scribeui-on-gsoc-2015</id>
+    <id>http://blog.scribeui.org/blog/2015/05/26/scribeui-on-gsoc-2015</id>
     <content type="html"><![CDATA[<p>ScribeUI is back as a Google Summer of Code project with OSGeo.</p>
 
 <p>We decided to put the old developement blog back up, and use it to post news on what&rsquo;s going on with the project. I will post a getting started guide this week to help new users use ScribeUI. This summer&rsquo;s plan involves fixing bugs and adding a few features:</p>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Scribe Development Blog]]></title>
-  <link href="http://mapgears.github.io/scribe-blog/atom.xml" rel="self"/>
-  <link href="http://mapgears.github.io/scribe-blog/"/>
-  <updated>2015-05-27T08:44:10-04:00</updated>
-  <id>http://mapgears.github.io/scribe-blog/</id>
+  <link href="http://blog.scribeui.org/atom.xml" rel="self"/>
+  <link href="http://blog.scribeui.org/"/>
+  <updated>2015-05-27T08:50:20-04:00</updated>
+  <id>http://blog.scribeui.org/</id>
   <author>
     <name><![CDATA[Mapgears]]></name>
     
@@ -15,18 +15,18 @@
   
   <entry>
     <title type="html"><![CDATA[Getting Started With ScribeUI]]></title>
-    <link href="http://mapgears.github.io/scribe-blog/blog/2015/05/26/getting-started-with-scribeui/"/>
+    <link href="http://blog.scribeui.org/blog/2015/05/26/getting-started-with-scribeui/"/>
     <updated>2015-05-26T14:46:41-04:00</updated>
-    <id>http://mapgears.github.io/scribe-blog/blog/2015/05/26/getting-started-with-scribeui</id>
+    <id>http://blog.scribeui.org/blog/2015/05/26/getting-started-with-scribeui</id>
     <content type="html"><![CDATA[<p>There is now a Getting Started guide to Scribe UI! It is located on the <a href="https://github.com/mapgears/scribeui/wiki/Getting-started-with-ScribeUI">project&rsquo;s wiki</a>. You can also try ScribeUI without installing it by going on the <a href="http://demo.scribeui.org">demo</a> page. It is reset every day to keep it from getting too messy.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[ScribeUI on GSoC 2015]]></title>
-    <link href="http://mapgears.github.io/scribe-blog/blog/2015/05/26/scribeui-on-gsoc-2015/"/>
+    <link href="http://blog.scribeui.org/blog/2015/05/26/scribeui-on-gsoc-2015/"/>
     <updated>2015-05-26T08:45:38-04:00</updated>
-    <id>http://mapgears.github.io/scribe-blog/blog/2015/05/26/scribeui-on-gsoc-2015</id>
+    <id>http://blog.scribeui.org/blog/2015/05/26/scribeui-on-gsoc-2015</id>
     <content type="html"><![CDATA[<p>ScribeUI is back as a Google Summer of Code project with OSGeo.</p>
 
 <p>We decided to put the old developement blog back up, and use it to post news on what&rsquo;s going on with the project. I will post a getting started guide this week to help new users use ScribeUI. This summer&rsquo;s plan involves fixing bugs and adding a few features:</p>
@@ -49,24 +49,24 @@
   
   <entry>
     <title type="html"><![CDATA[Mockups]]></title>
-    <link href="http://mapgears.github.io/scribe-blog/blog/2013/06/11/mockups/"/>
+    <link href="http://blog.scribeui.org/blog/2013/06/11/mockups/"/>
     <updated>2013-06-11T13:46:00-04:00</updated>
-    <id>http://mapgears.github.io/scribe-blog/blog/2013/06/11/mockups</id>
+    <id>http://blog.scribeui.org/blog/2013/06/11/mockups</id>
     <content type="html"><![CDATA[<h2>First Page</h2>
 
-<p><a href="http://mapgears.github.io/scribe-blog/images/FirstOpening.png" title=""><img src="http://mapgears.github.io/scribe-blog/images/FirstOpening.png" /></a></p>
+<p><a href="http://blog.scribeui.org/images/FirstOpening.png" title=""><img src="http://blog.scribeui.org/images/FirstOpening.png" /></a></p>
 
 <p>When the app is first opened, the app asks for a workspace to work on. The workspaces allow ScribeUI to be cloud-based, with each user or project having its own workspace.</p>
 
 <h2>Manager</h2>
 
-<p><a href="http://mapgears.github.io/scribe-blog/images/Manager.png" title=""><img src="http://mapgears.github.io/scribe-blog/images/Manager.png" /></a></p>
+<p><a href="http://blog.scribeui.org/images/Manager.png" title=""><img src="http://blog.scribeui.org/images/Manager.png" /></a></p>
 
 <p>The manager lists the maps withing the project. The icons will be snapshots of the map. The toolbar at the bottom of the map is accessible from anywhere. The quickview is very useful, as it allows the user to save and quickly get back to certain map extents.</p>
 
 <h2>Editor</h2>
 
-<p><a href="http://mapgears.github.io/scribe-blog/images/Editor.png" title=""><img src="http://mapgears.github.io/scribe-blog/images/Editor.png" /></a>
+<p><a href="http://blog.scribeui.org/images/Editor.png" title=""><img src="http://blog.scribeui.org/images/Editor.png" /></a>
 This is the most important part of the app. The toolbar on top of the text box contains most tools for the mapfile edition.</p>
 
 <ul>
@@ -81,7 +81,7 @@ This is the most important part of the app. The toolbar on top of the text box c
 
 <h2>Editable Panel</h2>
 
-<p><a href="http://mapgears.github.io/scribe-blog/images/Editor_Variables.png" title=""><img src="http://mapgears.github.io/scribe-blog/images/Editor_Variables.png" /></a></p>
+<p><a href="http://blog.scribeui.org/images/Editor_Variables.png" title=""><img src="http://blog.scribeui.org/images/Editor_Variables.png" /></a></p>
 
 <p>When a user clicks on one of the settings option, or on the variable button, a panel opens that allows the edition of that particular setting.</p>
 
@@ -91,9 +91,9 @@ This is the most important part of the app. The toolbar on top of the text box c
   
   <entry>
     <title type="html"><![CDATA[Start of the Project]]></title>
-    <link href="http://mapgears.github.io/scribe-blog/blog/2013/06/10/start/"/>
+    <link href="http://blog.scribeui.org/blog/2013/06/10/start/"/>
     <updated>2013-06-10T11:29:00-04:00</updated>
-    <id>http://mapgears.github.io/scribe-blog/blog/2013/06/10/start</id>
+    <id>http://blog.scribeui.org/blog/2013/06/10/start</id>
     <content type="html"><![CDATA[<p>ScribeUI was accepted as a Google Summer of Code 2013 entry with OSGeo!</p>
 
 <p>The beginning of the project so far has been all about preparation. What new functionnalities do we want ? What current functionnality needs to get better ? What is good about the current application, and what needs to be redone ? What are the bugs, and how important are they ?</p>

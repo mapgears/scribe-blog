@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://mapgears.github.io/scribe-blog/blog/2015/05/26/getting-started-with-scribeui/</loc>
+    <loc>http://blog.scribeui.org/blog/2015/05/26/getting-started-with-scribeui/</loc>
     <lastmod>2015-05-26T14:46:41-04:00</lastmod>
   </url>
   <url>
-    <loc>http://mapgears.github.io/scribe-blog/blog/2015/05/26/scribeui-on-gsoc-2015/</loc>
+    <loc>http://blog.scribeui.org/blog/2015/05/26/scribeui-on-gsoc-2015/</loc>
     <lastmod>2015-05-26T08:45:38-04:00</lastmod>
   </url>
   <url>
-    <loc>http://mapgears.github.io/scribe-blog/blog/2013/06/11/mockups/</loc>
+    <loc>http://blog.scribeui.org/blog/2013/06/11/mockups/</loc>
     <lastmod>2013-06-11T13:46:00-04:00</lastmod>
   </url>
   <url>
-    <loc>http://mapgears.github.io/scribe-blog/blog/2013/06/10/start/</loc>
+    <loc>http://blog.scribeui.org/blog/2013/06/10/start/</loc>
     <lastmod>2013-06-10T11:29:00-04:00</lastmod>
   </url>
   <url>
-    <loc>http://mapgears.github.io/scribe-blog/blog/archives/</loc>
+    <loc>http://blog.scribeui.org/blog/archives/</loc>
   </url>
   <url>
-    <loc>http://mapgears.github.io/scribe-blog/</loc>
+    <loc>http://blog.scribeui.org/</loc>
   </url>
   <url>
-    <loc>http://mapgears.github.io/scribe-blog/blog/categories/gsoc/</loc>
+    <loc>http://blog.scribeui.org/blog/categories/gsoc/</loc>
   </url>
 </urlset>
