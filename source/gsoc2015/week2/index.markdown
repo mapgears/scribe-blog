@@ -7,7 +7,7 @@ sharing: true
 footer: true
 ---
 
-Good week everyone! This is my second report for the ScribeUI project.
+Hello everyone! This is my second report for the ScribeUI project.
 
 **Completed this week**
 
