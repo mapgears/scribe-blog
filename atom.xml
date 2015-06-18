@@ -4,7 +4,7 @@
   <title><![CDATA[Scribe Development Blog]]></title>
   <link href="http://blog.scribeui.org/atom.xml" rel="self"/>
   <link href="http://blog.scribeui.org/"/>
-  <updated>2015-06-18T10:04:50-04:00</updated>
+  <updated>2015-06-18T10:05:55-04:00</updated>
   <id>http://blog.scribeui.org/</id>
   <author>
     <name><![CDATA[Mapgears]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[First Alpha Release for GSoC 2015]]></title>
+    <title type="html"><![CDATA[ScribeUI v1.4]]></title>
     <link href="http://blog.scribeui.org/blog/2015/06/18/first-alpha-release-for-gsoc-2015/"/>
     <updated>2015-06-18T10:19:46-04:00</updated>
     <id>http://blog.scribeui.org/blog/2015/06/18/first-alpha-release-for-gsoc-2015</id>
