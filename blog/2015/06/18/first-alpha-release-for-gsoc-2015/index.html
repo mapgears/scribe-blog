@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Scribe Development Blog</title>
+  <title>First Alpha Release for GSoC 2015 - Scribe Development Blog</title>
   <meta name="author" content="Mapgears">
 
   
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://blog.scribeui.org/">
+  <link rel="canonical" href="http://blog.scribeui.org/blog/2015/06/18/first-alpha-release-for-gsoc-2015/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/scribe-blog/atom.xml" rel="alternate" title="Scribe Development Blog" type="application/atom+xml">
@@ -65,15 +65,12 @@
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2015/06/18/first-alpha-release-for-gsoc-2015/">First Alpha Release for GSoC 2015</a></h1>
+      <h1 class="entry-title">First Alpha Release for GSoC 2015</h1>
     
     
       <p class="meta">
@@ -89,7 +86,7 @@
   </header>
 
 
-  <div class="entry-content"><h2>Summary of the update</h2>
+<div class="entry-content"><h2>Summary of the update</h2>
 
 <p>I am releasing today the first update for ScribeUI for <a href="https://www.google-melange.com/gsoc/homepage/google/gsoc2015">Google Summer of Code 2015</a>. I had three main objectives planned for this summer, which you can see in <a href="http://blog.scribeui.org/blog/2015/05/26/scribeui-on-gsoc-2015/">this previous blog post</a>. This update contains the first part of the project, improved error detection. You can try it <a href="http://demo.scribeui.org">here!</a></p>
 
@@ -145,195 +142,52 @@ sudo make perms
 
 <p>The second feature planned is exporting and importing maps and workspaces. This would allow users to share their maps more easily, and it would make it possible to add backups.</p>
 </div>
-  
-  
 
 
-    </article>
-  
-  
-    <article>
+  <footer>
+    <p class="meta">
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/05/26/getting-started-with-scribeui/">Getting Started With ScribeUI</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2015-05-26T14:46:41-04:00'><span class='date'><span class='date-month'>May</span> <span class='date-day'>26</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>2:46 pm</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>There is now a Getting Started guide to Scribe UI! It is located on the <a href="https://github.com/mapgears/scribeui/wiki/Getting-started-with-ScribeUI">project&rsquo;s wiki</a>. You can also try ScribeUI without installing it by going on the <a href="http://demo.scribeui.org">demo</a> page. It is reset every day to keep it from getting too messy.</p>
-</div>
-  
   
 
+<span class="byline author vcard">Posted by <span class="fn">Mapgears</span></span>
 
-    </article>
-  
-  
-    <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2015/05/26/scribeui-on-gsoc-2015/">ScribeUI on GSoC 2015</a></h1>
-    
-    
-      <p class="meta">
-        
 
 
 
 
-<time class='entry-date' datetime='2015-05-26T08:45:38-04:00'><span class='date'><span class='date-month'>May</span> <span class='date-day'>26</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>8:45 am</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>ScribeUI is back as a Google Summer of Code project with OSGeo.</p>
-
-<p>We decided to put the old developement blog back up, and use it to post news on what&rsquo;s going on with the project. I will post a getting started guide this week to help new users use ScribeUI. This summer&rsquo;s plan involves fixing bugs and adding a few features:</p>
-
-<h3>Improve the error detection of ScribeUI</h3>
-
-<p>Right now, the only way we have to know something is wrong with a Scribe map file is when it is converted to the Mapserver Mapfile format and Mapserver can&rsquo;t read it. ScribeUI displays Mapserver&rsquo;s error output in the logs, allowing the user to have an idea of the problem. However, the line numbers displayed in the logs do not fit with the Scribe files since it is a different format. The goal is to have an error output that displays the correct location of errors in the code.</p>
-
-<h3>Import and export workspaces</h3>
-
-<p>I want to add the possibility to export workspaces into a single zipped file, and allow other users to import it on their installation of ScribeUI. This would make sharing maps easier.</p>
-
-<h3>Classify the data</h3>
-
-<p>One of the commonly requested features to automatically add classes based on a set of data and scales. For example, most demographics can be displayed with a map colored with a scale based from brighter to darker colors. Adding a way to automatically create these classes would be very useful to ScribeUI users.</p>
-
-<p>My objective is to complete all these features by the end of the summer and release a new stable version of ScribeUI.</p>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
+<time class='entry-date' datetime='2015-06-18T10:19:46-04:00'><span class='date'><span class='date-month'>Jun</span> <span class='date-day'>18</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>10:19 am</span></time>
       
-  <header>
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/gsoc/'>gsoc</a>
+  
+</span>
+
+
+    </p>
     
-      <h1 class="entry-title"><a href="/blog/2013/06/11/mockups/">Mockups</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2013-06-11T13:46:00-04:00'><span class='date'><span class='date-month'>Jun</span> <span class='date-day'>11</span><span class='date-suffix'>th</span>, <span class='date-year'>2013</span></span> <span class='time'>1:46 pm</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h2>First Page</h2>
-
-<p><a href="/images/FirstOpening.png" title=""><img src="/images/FirstOpening.png" /></a></p>
-
-<p>When the app is first opened, the app asks for a workspace to work on. The workspaces allow ScribeUI to be cloud-based, with each user or project having its own workspace.</p>
-
-<h2>Manager</h2>
-
-<p><a href="/images/Manager.png" title=""><img src="/images/Manager.png" /></a></p>
-
-<p>The manager lists the maps withing the project. The icons will be snapshots of the map. The toolbar at the bottom of the map is accessible from anywhere. The quickview is very useful, as it allows the user to save and quickly get back to certain map extents.</p>
-
-<h2>Editor</h2>
-
-<p><a href="/images/Editor.png" title=""><img src="/images/Editor.png" /></a>
-This is the most important part of the app. The toolbar on top of the text box contains most tools for the mapfile edition.</p>
-
-<ul>
-<li><p><strong>Layer Groups</strong>: Choose the currently edited layer group from the drop-down. Group order and deletion managed in a pop-up appearing when the user clicks on the icon next to the drop-down.</p></li>
-<li><p><strong>Variables</strong>: Opens a panel on top of the regular editor. It contains the map&rsquo;s variables, if the project is in Scribe.</p></li>
-<li><p><strong>Settings</strong>: This drop-down contains editable sections of the map project.</p></li>
-<li><p><strong>Debug</strong>: The flag icon opens a list of debugs links. Mapfile Result is the outputted mapfile, Scribe logs contains log messages from Scribe and Mapserver Debug contains the debug output from mapserver.</p></li>
-<li><p><strong>Editor Settings</strong>: The gear icon will allow the user to edit the editor&rsquo;s configuration.</p></li>
-<li><p><strong>Swatch Toolbar</strong>: The swatches at the bottom of the editor allow the user to edit the project&rsquo;s colors with a color picker.</p></li>
-</ul>
-
-
-<h2>Editable Panel</h2>
-
-<p><a href="/images/Editor_Variables.png" title=""><img src="/images/Editor_Variables.png" /></a></p>
-
-<p>When a user clicks on one of the settings option, or on the variable button, a panel opens that allows the edition of that particular setting.</p>
-
-<p>A big thanks to the people from <a href="http://www.balsamiq.com/products/mockups">Balsamiq</a> who gave a licence for their mockups software to this GSoC project !</p>
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://blog.scribeui.org/blog/2015/06/18/first-alpha-release-for-gsoc-2015/" data-via="" data-counturl="http://blog.scribeui.org/blog/2015/06/18/first-alpha-release-for-gsoc-2015/" >Tweet</a>
+  
+  
+  
 </div>
-  
-  
 
-
-    </article>
-  
-  
-    <article>
+    
+    <p class="meta">
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/06/10/start/">Start of the Project</a></h1>
-    
-    
-      <p class="meta">
-        
+        <a class="basic-alignment left" href="/blog/2015/05/26/getting-started-with-scribeui/" title="Previous Post: Getting started with ScribeUI">&laquo; Getting started with ScribeUI</a>
+      
+      
+    </p>
+  </footer>
+</article>
 
-
-
-
-<time class='entry-date' datetime='2013-06-10T11:29:00-04:00'><span class='date'><span class='date-month'>Jun</span> <span class='date-day'>10</span><span class='date-suffix'>th</span>, <span class='date-year'>2013</span></span> <span class='time'>11:29 am</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>ScribeUI was accepted as a Google Summer of Code 2013 entry with OSGeo!</p>
-
-<p>The beginning of the project so far has been all about preparation. What new functionnalities do we want ? What current functionnality needs to get better ? What is good about the current application, and what needs to be redone ? What are the bugs, and how important are they ?</p>
-
-<p>So before a first version can be released, a few things need to be done. First, GUI Mockups. The main weakness of the application right now is the GUI, and the mockups really help bringing new ideas before doing any coding. The mockups will be up shortly on this blog.</p>
-
-<p>Next, there need to be some rethinking of the code to have it work with modules. That way, implementing new features will be much easier.</p>
-
-<p>Also, two bugs need to be corrected before releasing the project. Both bugs cause loss of work made by the user, that is why they need to be fixed as soon as possible.</p>
-
-<p>And finally, actually implemeting the new GUI as directed by the mockups.</p>
-
-<p>Once all of this is done, the app can be used and tested by anyone interested. Some functionnalities will be missing, but the core will be there.</p>
 </div>
-  
-  
 
-
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
-</div>
 <aside class="sidebar">
   
     <section>
@@ -369,6 +223,7 @@ This is the most important part of the app. The toolbar on top of the text box c
 
   
 </aside>
+
 
     </div>
   </div>
