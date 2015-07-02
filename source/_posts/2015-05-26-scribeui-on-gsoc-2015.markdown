@@ -4,6 +4,7 @@ title: "ScribeUI on GSoC 2015"
 date: 2015-05-26 08:45:38 -0400
 comments: true
 categories: GSoC
+author: "Samuel Lapointe"
 ---
 ScribeUI is back as a Google Summer of Code project with OSGeo. 
 

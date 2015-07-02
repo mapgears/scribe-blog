@@ -4,6 +4,7 @@ title: "Mockups"
 date: 2013-06-11 13:46
 comments: true
 categories: 
+author: "Jessica Lapointe"
 ---
 
 First Page

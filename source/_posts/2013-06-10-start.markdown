@@ -4,6 +4,7 @@ title: "Start of the project"
 date: 2013-06-10 11:29
 comments: true
 categories: 
+author: "Jessica Lapointe"
 ---
 
 ScribeUI was accepted as a Google Summer of Code 2013 entry with OSGeo! 
