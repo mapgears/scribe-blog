@@ -5,6 +5,7 @@ date: 2015-06-05 15:37
 comments: true
 sharing: true
 footer: true
+author: "Samuel Lapointe"
 ---
 
 Hello everyone! This is my second report for the ScribeUI project.
