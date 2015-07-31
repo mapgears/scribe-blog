@@ -12,7 +12,7 @@ Hello everyone, here is my ninth report for the ScribeUI project.
 
 **Completed this week**
 
-* I spent most of the week doing bugfixes in preparation for the Release
+* I spent most of the week doing bugfixes in preparation for the release
 * Release a new version of ScribeUI with the import and export features
 * Announce the release on the blog and mapserver users list, update the demo
 
