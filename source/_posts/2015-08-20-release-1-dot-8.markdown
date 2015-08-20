@@ -1,0 +1,66 @@
+---
+layout: post
+title: "Release 1.8"
+date: 2015-08-20 12:28:31 -0400
+comments: true
+categories:
+author: "Samuel Lapointe"
+---
+
+## Summary of the update
+
+Hello everyone! I am releasing today a third update for ScribeUI, for the 2015 edition of [Google Summer of Code](https://www.google-melange.com/gsoc/homepage/google/gsoc2015). This is the final feature update for the summer, which adds a new classifying feature.
+
+## Classify
+
+**Classify** is a new plugin that adds a button to automatically create classes from a set of data. To use it, start by opening a map. On the left side of the screen, you will find a **Classify** button:
+
+![Classify](https://cloud.githubusercontent.com/assets/2997638/9389906/99d397c8-473b-11e5-9bba-8d216e89cc7b.png)
+
+Clicking on it will make a new popup appear:
+
+![Classify Menu](https://cloud.githubusercontent.com/assets/2997638/9389976/262ee2cc-473c-11e5-866e-a5f149072d0a.png)
+
+* **Group/Layer** specifies in which group the classes should be added
+
+* **Data source** gives you a list of the data sources in the selected layer. Choose the one you want to use to make classes.
+
+* **Field** is the field to classify. The fields available are those found in the selected data source.
+
+* **Class type** is a choice between **Qualitative**, where all individual values have their own class, and **Quantitative**, where ranges of values have a class.
+
+* **Colors** defines the colors to use for the classes, if any. When clicking on **Choose**, this menu will appear:
+
+![Color menu](https://cloud.githubusercontent.com/assets/2997638/9390070/cde4ef02-473c-11e5-84bd-bc4df72d695f.png)
+
+To add a single color, choose one by clicking on the black square (if you use Chrome or Firefox), or enter its hexadecimal value. Click on the **Add** button located on the right to add it to the selected colors.
+
+To add a range of colors, choose the starting and last colors, as well as how many colors to generate, then click on **Add**.
+
+To remove a selected color, press on it in the **Selected colors** area and click on **Remove**. To move it, click on **Move left** or **Move right** and to remove all the selected colors, click on **Clear**. When you're done, press on **Confirm** in the bottom right of the popup.
+
+When you're done choosing colors, you will go back to the classify menu. To generate the classes, press on **Confirm** on the bottom right.
+
+Here is an example of the kind of classes you can generate using this feature:
+
+![Map](https://cloud.githubusercontent.com/assets/2997638/9390262/110354bc-473e-11e5-8644-039a055a65fd.png)
+
+## Updating
+
+You can update ScribeUI to v1.8 by using these commands:
+
+    sudo chown -R youruser .
+    git pull
+    git checkout v1.8
+    sudo make perms
+
+You will also need to install GDAL and create a path to it:
+
+    sudo apt-get install gdal-bin python-gdal
+    export CPLUS_INCLUDE_PATH=/usr/include/gdal
+    export C_INCLUDE_PATH=/usr/include/gdal
+
+## Changelog
+
+* Add a new plugin: **Classify**
+* [Fix #138](https://github.com/mapgears/scribeui/issues/138)
