@@ -4,7 +4,7 @@
   <title><![CDATA[Scribe Development Blog]]></title>
   <link href="http://blog.scribeui.org/atom.xml" rel="self"/>
   <link href="http://blog.scribeui.org/"/>
-  <updated>2015-08-14T15:45:34-04:00</updated>
+  <updated>2015-08-20T13:25:16-04:00</updated>
   <id>http://blog.scribeui.org/</id>
   <author>
     <name><![CDATA[Mapgears]]></name>
@@ -12,6 +12,75 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Release 1.8]]></title>
+    <link href="http://blog.scribeui.org/blog/2015/08/20/release-1-dot-8/"/>
+    <updated>2015-08-20T12:28:31-04:00</updated>
+    <id>http://blog.scribeui.org/blog/2015/08/20/release-1-dot-8</id>
+    <content type="html"><![CDATA[<h2>Summary of the update</h2>
+
+<p>Hello everyone! I am releasing today a third update for ScribeUI, for the 2015 edition of <a href="https://www.google-melange.com/gsoc/homepage/google/gsoc2015">Google Summer of Code</a>. This is the final feature update for the summer, which adds a new classifying feature.</p>
+
+<h2>Classify</h2>
+
+<p><strong>Classify</strong> is a new plugin that adds a button to automatically create classes from a set of data. To use it, start by opening a map. On the left side of the screen, you will find a <strong>Classify</strong> button:</p>
+
+<p><img src="https://cloud.githubusercontent.com/assets/2997638/9389906/99d397c8-473b-11e5-9bba-8d216e89cc7b.png" alt="Classify" /></p>
+
+<p>Clicking on it will make a new popup appear:</p>
+
+<p><img src="https://cloud.githubusercontent.com/assets/2997638/9389976/262ee2cc-473c-11e5-866e-a5f149072d0a.png" alt="Classify Menu" /></p>
+
+<ul>
+<li><p><strong>Group/Layer</strong> specifies in which group the classes should be added</p></li>
+<li><p><strong>Data source</strong> gives you a list of the data sources in the selected layer. Choose the one you want to use to make classes.</p></li>
+<li><p><strong>Field</strong> is the field to classify. The fields available are those found in the selected data source.</p></li>
+<li><p><strong>Class type</strong> is a choice between <strong>Qualitative</strong>, where all individual values have their own class, and <strong>Quantitative</strong>, where ranges of values have a class.</p></li>
+<li><p><strong>Colors</strong> defines the colors to use for the classes, if any. When clicking on <strong>Choose</strong>, this menu will appear:</p></li>
+</ul>
+
+
+<p><img src="https://cloud.githubusercontent.com/assets/2997638/9390070/cde4ef02-473c-11e5-84bd-bc4df72d695f.png" alt="Color menu" /></p>
+
+<p>To add a single color, choose one by clicking on the black square (if you use Chrome or Firefox), or enter its hexadecimal value. Click on the <strong>Add</strong> button located on the right to add it to the selected colors.</p>
+
+<p>To add a range of colors, choose the starting and last colors, as well as how many colors to generate, then click on <strong>Add</strong>.</p>
+
+<p>To remove a selected color, press on it in the <strong>Selected colors</strong> area and click on <strong>Remove</strong>. To move it, click on <strong>Move left</strong> or <strong>Move right</strong> and to remove all the selected colors, click on <strong>Clear</strong>. When you&rsquo;re done, press on <strong>Confirm</strong> in the bottom right of the popup.</p>
+
+<p>When you&rsquo;re done choosing colors, you will go back to the classify menu. To generate the classes, press on <strong>Confirm</strong> on the bottom right.</p>
+
+<p>Here is an example of the kind of classes you can generate using this feature:</p>
+
+<p><img src="https://cloud.githubusercontent.com/assets/2997638/9390262/110354bc-473e-11e5-8644-039a055a65fd.png" alt="Map" /></p>
+
+<h2>Updating</h2>
+
+<p>You can update ScribeUI to v1.8 by using these commands:</p>
+
+<pre><code>sudo chown -R youruser .
+git pull
+git checkout v1.8
+sudo make perms
+</code></pre>
+
+<p>You will also need to install GDAL and create a path to it:</p>
+
+<pre><code>sudo apt-get install gdal-bin python-gdal
+export CPLUS_INCLUDE_PATH=/usr/include/gdal
+export C_INCLUDE_PATH=/usr/include/gdal
+</code></pre>
+
+<h2>Changelog</h2>
+
+<ul>
+<li>Add a new plugin: <strong>Classify</strong></li>
+<li><a href="https://github.com/mapgears/scribeui/issues/138">Fix #138</a></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Second Update for GSoC2015]]></title>
